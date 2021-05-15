@@ -1,0 +1,50 @@
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  border-radius: 12px;
+  color: black; 
+  border: 2px solid #165700;
+}
+.button1:hover {
+  background-color: #165700;
+  color: white;
+}
+.button2 {
+  background-color: white; 
+  border-radius: 12px;
+  color: black; 
+  border: 2px solid #820000;
+}
+.button2:hover {
+  background-color: #820000;
+  color: white;
+}
+.button3 {
+  background-color: white; 
+  border-radius: 12px;
+  color: black; 
+  border: 2px solid #003A6D;
+}
+.button3:hover {
+  background-color: #003A6D;
+  color: white;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
